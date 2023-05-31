@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    height: 80px;
+    background-color: rgb(59, 56, 56);
+}
+.prueba{
+    height: 100%;
+}
+#conf_bs_as{
+    font-size: 1.50em;
+    color: white;
+}
+.orador{
+    color: white;
+}
+.col-2{
+    text-align: center;
+}
+.d-flex{
+    align-items: center;
+}
+.segundaparte{
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.segundapartelalala{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.delEstudiante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.delTrainee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.delJuniors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+.ladocumentacion{
+    width: 100%;
+    height: 8vh;
+}
+.segundaparte1{
+    border: solid 2px blue;
+    width: 33%;
+}
+.segundaparte2{
+    border: solid 2px rgb(1, 103, 1);
+    width: 33%;
+}
+.segundaparte3{
+    border: solid 2px orange;
+    width: 33%;
+}
+.elformulario{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content:center;
+}
+.elformulario1{
+    width: 50%;
+}
+.cajanombreyapellido{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.cajanombre{
+    width: 40%;
+    border: solid 1px blue;
+}
+.cajaapellido{
+    width: 40%;
+    border: solid 1px blue;
+}
+#name{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#surname{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#e-mail{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.losLabels{
+    display: flex;
+    margin-top: 20px;
+}
+.labelCantidad{
+    width: 50%;
+}
+.labelCategoria{
+    display: flex;
+    width: 50%;
+    padding-left: 5px;
+}
+.numeroycombo{
+    width: 100%;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.cajanumero{
+    width: 49%;
+}
+.combobox{
+    width: 49%;
+}
+#cantidad{
+    padding-left: 10px;
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+#options{
+    width: 49%;
+    height: 40px;
+    margin-left: 9px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+#calculo{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.resetSend{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+}
+.botonDelete{
+    width: 50%;
+    justify-content: space-between;
+}
+.botonSend{
+    width: 50%;
+}
+.enviar, .resetear{
+    width: 49%;
+    height: 100%;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(114, 208, 59);
+    font-size: 1.2em;
+    border-style: none;
+}
+input{
+    border-style: none;
+    border: solid 1px grey;
+}
+input:hover{
+    border: solid 2px blue;
+}
+select{
+    border-style: none;
+    border: solid 1px grey;
+}
+select:hover{
+    border: solid 2px blue;
+}
+.final{
+    margin-top: 40px;
+}
+.effects{
+    color: white;
+    text-align: center;
+}
