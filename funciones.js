@@ -40,12 +40,14 @@ function cantPersonas(){
     }
 }
 function Personas(){
-    if(cantidadPersonas !==1){
-        Resultado=Resultado*cantidadPersonas;
-        document.getElementById("calculo").value=`${valorPorDefecto}${Resultado} para ${cantidadPersonas} personas (descuento de $${descuento} por persona)`;
-    } else {
-        Resultado=Resultado*cantidadPersonas;
-        document.getElementById("calculo").value=`${valorPorDefecto}${Resultado} para ${cantidadPersonas} persona (descuento de $${descuento} por persona)`
+    if(document.getElementById('name').value!=='' && document.getElementById('surname').value!=='' && document.getElementById('e-mail').value!==''){
+        if(cantidadPersonas !==1){
+            Resultado=Resultado*cantidadPersonas;
+            document.getElementById("calculo").value=`${valorPorDefecto}${Resultado} para ${cantidadPersonas} personas (descuento de $${descuento} por persona)`;
+        } else {
+            Resultado=Resultado*cantidadPersonas;
+            document.getElementById("calculo").value=`${valorPorDefecto}${Resultado} para ${cantidadPersonas} persona (descuento de $${descuento} por persona)`
+        }
     }
 }
 function category(){
@@ -73,17 +75,17 @@ function Resultados(){
     }
 }
 function Borrar(){
-    if(document.getElementById('name').innerText!==''){
-        document.getElementById('name').innerText=''
+    if(document.getElementById('name').value!==''){
+        document.getElementById('name').value=''
     }
-    if(document.getElementById('surname').innerText!==''){
-        document.getElementById('surname').innerText=''
+    if(document.getElementById('surname').value!==''){
+        document.getElementById('surname').value=''
     }
-    if(document.getElementById('e-mail').innerText!==''){
-        document.getElementById('e-mail').innerText=''
+    if(document.getElementById('e-mail').value!==''){
+        document.getElementById('e-mail').value=''
     }
-    if(document.getElementById('cantidad').innerText!==''){
-        document.getElementById('cantidad').innerText=''
+    if(document.getElementById('cantidad').value!==''){
+        document.getElementById('cantidad').value=''
     }
     if(document.getElementById('calculo').value!==`${valorPorDefecto}`){
         document.getElementById('calculo').value=`${valorPorDefecto}`
